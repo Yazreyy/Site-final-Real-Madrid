@@ -1,0 +1,108 @@
+body {
+    background-color: #ffffff;
+  }
+  
+  .fiche-joueur {
+    color: #1a1a1a;
+  }
+  
+  .fiche-joueur img {
+    border: 3px solid #ffcc00; /* Exemple : bordure dorée pour Arda */
+    width: 200px;
+    height: auto;
+    display: block;
+    margin : 0 auto;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9fafb; /* très clair, presque blanc */
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  /* Conteneur fiche */
+  .fiche-joueur {
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 800px;
+    width: 100%;
+    padding: 40px 50px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .fiche-joueur:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  }
+  
+  /* Titre */
+  .fiche-joueur h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #1a73e8; /* bleu accent moderne */
+    margin-bottom: 30px;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Image */
+  .fiche-joueur img {
+    width: 350px;
+    max-width: 90vw;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(26,115,232,0.3);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .fiche-joueur img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Infos */
+  .infos-joueur p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #444;
+    margin: 20px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+    border-left: 4px solid #1a73e8;
+    padding-left: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .infos-joueur p:hover {
+    color: #1a73e8;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .fiche-joueur {
+      padding: 30px 20px;
+    }
+    .fiche-joueur h1 {
+      font-size: 2.6rem;
+    }
+    .fiche-joueur img {
+      width: 80vw;
+      margin-bottom: 30px;
+    }
+    .infos-joueur p {
+      font-size: 1.3rem;
+    }
+  }
+  
+  

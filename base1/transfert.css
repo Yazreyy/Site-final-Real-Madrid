@@ -1,0 +1,125 @@
+body {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .hero-transfert {
+    background: transparent;
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+  }
+  
+  .hero-transfert h1 {
+    color: #ff6600;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(255, 102, 0, 0.4);
+  }
+  
+  .hero-transfert p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .transfert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  .transfert, .joueur, .real {
+    background-color: transparent; 
+  }
+  .transfert img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+
+  }
+  
+  .joueur p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 18px;
+  }
+  
+  .fleche-rouge-complete,
+  .fleche-rouge-gauche {
+    width: 60px;
+    height: 12px;
+    position: relative;
+    margin: 0 20px;
+  }
+  
+  .fleche-rouge-complete {
+    background-color: green;
+  }
+  
+  .fleche-rouge-complete::after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -12px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid green;
+  }
+  
+  .fleche-rouge-gauche {
+    background-color: red;
+  }
+  
+  .fleche-rouge-gauche::after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -12px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid red;
+  }
+  
+  footer {
+    padding: 3rem 2rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  footer .contact p {
+    margin-bottom: 1rem;
+    color: #ff6600;
+  }
+  
+  footer input,
+  footer textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  footer button {
+    background-color: #ff6600;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
