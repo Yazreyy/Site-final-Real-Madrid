@@ -4,6 +4,7 @@ body {
   }
   
   .hero-transfert {
+    display : flex;
     background: transparent;
     text-align: center;
     padding: 3rem 1rem 2rem;
